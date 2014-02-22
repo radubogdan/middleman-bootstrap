@@ -6,7 +6,10 @@ Because I want to have a clean boilerplate for [Middleman](http://middlemanapp.c
 No bloat, just [Haml](http://haml-lang.com/), [SCSS](http://sass-lang.com/), [Compass](http://compass-style.org/), 
 [Susy](http://susy.oddbird.net/) and [Jquery](http://jquery.com/).
 
-This is shipped with [Mobile-First Magic Grids](http://susy.oddbird.net/demos/magic/).
+This is shipped with: 
+    
+    * [Mobile-First Magic Grids](http://susy.oddbird.net/demos/magic/).
+    * My custom Grid1
 
 ## How to use this?
 
@@ -16,7 +19,7 @@ Clone this repository on your local machine:
 git clone http://github.com/radubogdan/middleman-hss-boilerplate my_new_clean_project
 ```
 
-And don't forget to ```bundle install```. You can build everything with ```middleman build```, and you can modify
+Build everything with ```middleman build```, and modify
 config.rb with correct credentials to deploy via rsync.
 
 ## Documentation
