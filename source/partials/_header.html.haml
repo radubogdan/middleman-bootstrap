@@ -1,0 +1,26 @@
+.jumbotron
+  %h1 Hello, world!
+  %p Find me in partials/_header.html.haml
+  %p
+    %button.btn.btn-primary.btn-lg{"data-target" => "#myModal", "data-toggle" => "modal", :type => "button"} Modal
+
+    #myModal.modal.fade{"aria-hidden" => "true", "aria-labelledby" => "myModalLabel", :role => "dialog", :tabindex => "-1"}
+      .modal-dialog
+        .modal-content
+          .modal-header
+            %button.close{"aria-label" => "Close", "data-dismiss" => "modal", :type => "button"}
+              %span{"aria-hidden" => "true"} &times;
+            %h4#myModalLabel.modal-title Modal title
+          .modal-body
+            \...
+          .modal-footer
+            %button.btn.btn-default{"data-dismiss" => "modal", :type => "button"} Close
+            %button.btn.btn-primary{:type => "button"} Save changes
+
+.alert.alert-info
+  Just a demo page!
+.alert.alert-danger
+  Bootstrap +
+  %i.fa.fa-flag
+  Fontawesome =
+  %i.fa.fa-heart

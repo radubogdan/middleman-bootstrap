@@ -1,37 +1,25 @@
-## HSS
+<a href="http://imgur.com/sMt3ogf"><img src="http://i.imgur.com/sMt3ogf.png" title="source: imgur.com" /></a>
 
 ## Why?
 
-Because I want to have a clean boilerplate for [Middleman](http://middlemanapp.com/) static site generator.
-No bloat, just [Haml](http://haml-lang.com/), [SCSS](http://sass-lang.com/), [Compass](http://compass-style.org/), 
-[Susy](http://susy.oddbird.net/) and [Jquery](http://jquery.com/).
+Because I want to have a clean boilerplate for [Middleman](http://middlemanapp.com/) and start working right away!
 
-This is shipped with: 
-    
-    * [Mobile-First Magic Grids](http://susy.oddbird.net/demos/magic/).
-    * My custom Grid1
+Components
+
+    * Bootstrap 3
+    * Haml
+    * Sass
+    * Coffee
+    * FontAwesome
+    * Jquery
 
 ## How to use this?
 
-Clone this repository on your local machine:
+Fu**king simple:
 
 ```
-git clone http://github.com/radubogdan/middleman-hss-boilerplate my_new_clean_project
+git clone http://github.com/radubogdan/middleman-bootstrap project1
 ```
-
-Build everything with ```middleman build```, and modify
-config.rb with correct credentials to deploy via rsync.
 
 ## Documentation
-* [Middleman website](http://middlemanapp.com/)
-* [Compass Reference](http://compass-style.org/reference/compass/)
-* [Susy demos](http://susy.oddbird.net/demos/)
-* [Jquery API](http://api.jquery.com/)
-
-## License
-
-* Middleman: [MIT license](https://github.com/middleman/middleman/blob/master/LICENSE.md)
-* Compass: [MIT license](https://github.com/chriseppstein/compass/blob/stable/LICENSE.markdown)
-* Susy: [MIT license](https://github.com/ericam/susy/blob/master/LICENSE.txt)
-* jQuery: [MIT license](https://github.com/jquery/jquery/blob/master/MIT-LICENSE.txt)
-* Rest of files: [MIT license](https://github.com/radubogdan/blob/master/LICENSE.txt)
+http://lmgtfy.com/?q=middleman+documentation

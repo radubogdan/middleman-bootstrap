@@ -1,0 +1,11 @@
+@mixin backstrech($image)
+  background-image: url(image_path($image))
+  background-position: 50%
+  background-repeat: no-repeat
+  background-size: cover
+  height: 100%
+
+@mixin bg-image($image, $width, $height)
+  background: url(image_path($image)) no-repeat
+  height: $height
+  width: $width
